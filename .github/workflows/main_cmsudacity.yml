@@ -22,7 +22,7 @@ jobs:
       - name: Set up Python version
         uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.10'
 
       #  ADD THIS: Install ODBC dependencies required for pyodbc
       - name: Install ODBC dependencies
@@ -71,4 +71,5 @@ jobs:
         with:
           app-name: 'cmsudacity'
           slot-name: 'Production'
+
 
